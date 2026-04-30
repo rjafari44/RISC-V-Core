@@ -11,16 +11,16 @@ InstMem uut (
 );
 
 initial begin
-    $display("Time    addr        index   instruction   expected");
+    $display("time     address   index  instruction  expected");
 
     addr_tb = 8'b00001100; #10;
-    $display("%0t    %b   3   %h   00308193", $time, addr_tb, instruction_tb);
+    $display("%0t    %b   3     %h     00308193", $time, addr_tb, instruction_tb);
 
     addr_tb = 8'b00100000; #10;
-    $display("%0t    %b   8   %h   00208433", $time, addr_tb, instruction_tb);
+    $display("%0t    %b   8     %h     00208433", $time, addr_tb, instruction_tb);
 
     addr_tb = 8'b01000000; #10;
-    $display("%0t    %b   16  %h   4d26a813", $time, addr_tb, instruction_tb);
+    $display("%0t    %b   16    %h     4d26a813", $time, addr_tb, instruction_tb);
 
     $finish;
 end

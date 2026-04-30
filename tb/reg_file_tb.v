@@ -30,7 +30,7 @@ always #10 clk_tb = ~clk_tb;
 initial begin
     clk_tb = 0;
 
-    $display("Time   reset wr wr_addr wr_data        rd1         rd2");
+    $display("time   reset wr  wr_addr  wr_data       rd1         rd2");
 
     // RESET
     reset_tb = 1;
