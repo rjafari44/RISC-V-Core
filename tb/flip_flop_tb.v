@@ -22,7 +22,7 @@ initial begin
     tb_reset = 1;
     tb_d = 0;
 
-    $display("Time    reset   d         q");
+    $display("Time    reset        d           q");
 
     #100; // hold reset
     tb_reset = 0;
