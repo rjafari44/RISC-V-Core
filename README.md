@@ -1,4 +1,4 @@
-# RISC-V Processors
+# RISC-V Core
 
 This project implements core building blocks for a RISC-V single-cycle processor using Verilog. It includes sequential and memory components designed to be integrated into a complete datapath.
 
